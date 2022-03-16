@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@400;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.not_found_text {
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 1.25rem 0 4rem 1.5rem;
+    text-transform: uppercase;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+img {
+    width: 75%;
+    margin-left: 2.75rem;
+}
+
+.text_content {
+    margin-left: 1.5rem;
+    font-family: 'Space Mono', monospace;
+}
+
+#headline {
+    font-weight: bold;
+    font-size: 46px;
+    color: #333333;
+    margin-bottom: 30px;
+    line-height: 71px;
+    height: 142px;
+    margin-top: 60px;
+}
+
+#info {
+    color: #4f4f4f;
+    font-size: 1.125rem;
+    margin-bottom: 66px;
+}
+
+a {
+    display: inline-block;
+    font-family: 'Space Mono', monospace;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: #333333;
+    outline: none;
+    padding: 24px;
+    margin-bottom: 20px;
+}
